@@ -21,6 +21,7 @@ body{
     background: url(/img/BACK2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     
 }
 .menu{ 
@@ -127,106 +128,114 @@ color: #e7e7e7;
 grid-area: footer;
 
 }
-.find{
-position: absolute;
-width: 78px;
-height: 19px;
-left: 16vw;
-top: 60vw;
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
+#footer {
+    position: relative;
+    width: 1263px;
+    height: 74px;
+    left: 0px;
+    top: 226px;
+    background: rgba(0, 0, 0, 0.73);
 }
-.nm{
-position: absolute;
-left: 16vw;
-top: 62.5vw;
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 12px;
-color: #FFFFFF;
-}
-.adress{
-position: absolute;
-left: 16vw;
-top: 64vw;
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 13px;
-color: #FFFFFF;
-}
-#logoo{
-position: absolute;
-top: 60vw;
-}
-#logos{
-    position: absolute;
-top: 64.5vw;
-left: 1vw;
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 0.86vw;
-line-height: 1.02vw;
-color: #FFFFFF;
 
-}
-#cnt{
+.find {
     position: absolute;
-    top: 62vw;
-    left: 32vw;
+    width: 78px;
+    height: 19px;
+    left: 16vw;
     font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size:  1.17vw;
-line-height: 1.02vw;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
-#insta{
+
+.nm {
     position: absolute;
-    height: 4vw;
-    width: 4vw;
-    left: 65vw;
-    top: 61vw;
-    border-radius: 0vw;
-    
+    left: 16vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
 }
-#fb
-{
+
+.adress {
     position: absolute;
-    height: 4vw;
-    width: 4vw;
-    left: 73vw;
-    top: 61vw;
-    border-radius: 0vw;
-    
+    left: 16vw;
+    top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
-#tw
-{
+
+#logoo {
     position: absolute;
-    height: 4vw;
-    width: 4vw;
-    left: 81vw;
-    top: 61vw;
-    border-radius: 0vw;
-    
 }
-#local
-{
+
+#logos {
     position: absolute;
-    height: 4vw;
-    width: 4vw;
-    left: 89vw;
-    top: 61vw;
+    left: 1vw;
+    top: 55px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.86vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+
+#cnt {
+    position: absolute;
+    left: 37vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.17vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+
+#insta {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 82vw;
+    top: 20px;
     border-radius: 0vw;
-    
+}
+
+#fb {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 87vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+#tw {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 91vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+#local {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 95vw;
+    top: 20px;
+    border-radius: 0vw;
 }
 
 @media screen and (max-width:800px){
