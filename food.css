@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "menu menu menu menu"
+    "ph1 ph2 ph3 ph4"
+    "ph5 ph6 ph7 ph8"
+    "footer footer footer footer"
+    ;
+}
+#menu{
+    grid-area: menu;
+}
+li,.a{
+    position: relative;
+    left: 10vw;
+    top: 1vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    .li, .aa{
+    position: relative;
+    left: 28vw;
+    bottom: 1.9vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    #img{
+        position: relative;
+        bottom: 5.5vw;
+        left: 40.8vw;
+        width: 10vw;
+        height: 8vw;
+    }
+    pre{
+        position: absolute;
+        top: 6.5vw;
+        left: 42.5vw; 
+        font-size: 1.3vw;
+        text-align: left;
+        line-height: 2.6vw;
+        font-family: "JejuGothic";
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+#ph1{
+grid-area: ph1;
+}
+.cards{
+    position: absolute;
+    top: 10vw;
+    width: 20vw;
+    height: 12vw;
+    background: #fff;
+    margin: 40px 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;     
+    background: rgb(219, 219, 219);
+    border-radius: 30px;
+}
+.cards:hover{
+    height: 31vw;
+}
+.cards .image{
+    position: relative;
+    left: 3vw;
+    bottom: 1vw;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 4px;
+    z-index: 1;
+    
+ 
+
+}
+.cards .image img {
+    width: 13vw;
+    height: 13vw;
+}
+.cards .text{
+    position: relative;
+    top: 110px;
+    color: #321c48;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.cards:hover .text{
+    opacity: 1;
+    visibility: visible;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+#ph2{
+grid-area: ph2;
+}
+#ph3{
+    grid-area: ph3;
+}
+#ph4{
+    grid-area: ph4;
+}
+#ph5{
+grid-area: ph5;
+
+}
+.cardss{
+    position: absolute;
+    top: 42vw;
+    width: 20vw;
+    height: 12vw;
+    background: #fff;
+    margin: 40px 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;     
+    background: rgb(219, 219, 219);
+    border-radius: 30px;
+}
+.cardss:hover{
+    height: 31vw;
+}
+.cardss .images{
+    position: relative;
+    left: 3vw;
+    bottom: 1vw;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 4px;
+    z-index: 1;
+ 
+
+}
+.cardss .images img {
+    width: 13vw;
+    height: 13vw;
+}
+.cardss .texts{
+    position: relative;
+    top: 110px;
+    color: #321c48;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.cardss:hover .texts{
+    opacity: 1;
+    visibility: visible;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+#ph6{
+grid-area: ph6;
+
+}
+#ph7{
+    grid-area: ph7;
+
+}
+#ph8{
+grid-area: ph8;
+
+}
+#footer{
+    grid-area: footer;
+    background: black;
+    opacity: 0.7;
+    position: relative;
+    top: 480px;
+
+
+}
+.find{
+    position: absolute;
+    top: 2vw;
+    left: 16vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+    .nm{
+    position: absolute;
+    top: 4vw;
+    left: 16vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    }
+    .adress{
+    position: absolute;
+    top: 5.7vw;
+    left: 16vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    }
+    #logoo{
+    position: absolute;
+    top: 2vw;
+
+    }
+    #logos{
+        position: absolute;
+        left: 1.5vw;
+        top: 6VW;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.86vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+    
+    }
+    #cnt{
+        position: absolute;
+        top: 4vw;
+        left: 32vw;
+        font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size:  1.17vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+    }
+    #insta{
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 65vw;
+        top: 3vw;
+        
+    }
+    #fb
+    {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 73vw;
+        top: 3vw;
+        
+    }
+    #tw
+    {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 81vw;
+        top: 3vw;
+        
+    }
+    #local
+    {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 89vw;
+        top: 3vw;
+        
+    }
+
+    @media screen and (max-width:800px){
+        .home{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+            "menu menu menu menu"
+            "ph1 ph1 ph2 ph2"
+            "ph3 ph3 ph4 ph4"
+            "ph5 ph5 ph6 ph6"
+            "ph7 ph7 ph8 ph8"
+            "footer footer footer footer"
+            ;
+        }
+        li,.a{
+            position: relative;
+            left: 3vw;
+            top: 3vw;
+            font-family: "JejuGothic";
+            font-weight: bold;
+            font-size: 3.55vw;
+            text-align: left;
+            line-height: 2.6vw;
+            text-decoration: none;
+            list-style-type: none;
+            color: #FFFFFF;
+            display: inline-block;
+            margin-right: 4vw;
+            }
+            .li, .aa{
+            position: relative;
+            left: 28vw;
+            bottom: 1vw;
+            font-family: "JejuGothic";
+            font-weight: bold;
+            font-size: 3.4vw;
+            text-align: left;
+            line-height: 2.6vw;
+            text-decoration: none;
+            color: #FFFFFF;
+            display: inline-block;
+            margin-right: 4vw;
+            }
+            #img{
+                position: relative;
+                bottom: 6.5vw;
+                left: 37vw;
+                width: 18vw;
+                height: 15vw;
+            }
+            pre{
+                position: absolute;
+                top: 14vw;
+                left: 39vw; 
+                font-size: 3.3vw;
+                text-align: left;
+                line-height: 2.6vw;
+                font-family: "JejuGothic";
+                color: rgb(255, 255, 255);
+                opacity: 0.8;
+            }
+            .cards{
+                position: relative;
+                top: 5vw;
+                width: 30vw;
+                height: 20vw;
+                background: #fff;
+                margin: 40px 40px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+                transition: 0.3s ease-in-out;     
+                background: rgb(219, 219, 219);
+                border-radius: 30px;
+            }
+            .cards:hover{
+                height: 51vw;
+            }
+            .cards .image{
+                position: relative;
+                left: 5vw;
+                bottom: 1vw;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 4px;
+                z-index: 1;
+             
+            
+            }
+            .cards .image img {
+                width: 18vw;
+                height: 18vw;
+            }
+            .cards .text{
+                position: relative;
+                top: 40px;
+                color: #321c48;
+                font-size: 10px;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.3s ease-in-out;
+                text-align: center;
+            }
+            .cards:hover .text{
+                opacity: 1;
+                visibility: visible;
+                margin-top: -40px;
+                transition-delay: 0.3s;
+            }
+
+            .cardss{
+                position: relative;
+                top: 10vw;
+                width: 30vw;
+                height: 20vw;
+                background: #fff;
+                margin: 40px 40px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+                transition: 0.3s ease-in-out;     
+                background: rgb(219, 219, 219);
+                border-radius: 30px;
+            }
+            .cardss:hover{
+                height: 61vw;
+            }
+            .cardss .images{
+                position: relative;
+                left: 5vw;
+                bottom: 1vw;
+                width: 15vw;
+                height: 15vw;
+                border-radius: 4px;
+                z-index: 1;
+             
+            
+            }
+            .cardss .images img {
+                width: 17vw;
+                height: 17vw;
+            }
+            .cardss .texts{
+                position: relative;
+                top: 50px;
+                color: #321c48;
+                font-size: 10px;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.3s ease-in-out;
+                text-align: center;
+            }
+            .cardss:hover .texts{
+                opacity: 1;
+                visibility: visible;
+                margin-top: -40px;
+                transition-delay: 0.3s;
+            }
+            #footer {
+                position: relative;
+                width: 483px;
+                height: 74px;
+                top: 40vw;
+                left: 0px;
+                background: rgba(0, 0, 0, 0.73);
+            }
+            .find {
+                position: absolute;
+                left: 16vw;
+                top: 2vw;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                color: #FFFFFF;
+            }
+            .nm {
+                position: absolute;
+                left: 16vw;
+                top: 30px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+            }
+            .adress {
+                position: absolute;
+                left: 16vw;
+                top: 50px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 10px;
+                color: #FFFFFF;
+            }
+            #logoo {
+                position: absolute;
+            }
+            #logos {
+                position: absolute;
+                left: 3vw;
+                top: 65px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 1.02vw;
+                color: #FFFFFF;
+            }
+            #cnt {
+                position: absolute;
+                left: 34vw;
+                top: 30px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.77vw;
+                line-height: 1.02vw;
+                color: #FFFFFF;
+            }
+            #insta {
+                position: absolute;
+                height: 3vw;
+                width: 3vw;
+                left: 80vw;
+                top: 40px;
+                border-radius: 0vw;
+            }
+            #fb {
+                position: absolute;
+                height: 3vw;
+                width: 3vw;
+                left: 84vw;
+                top: 40px;
+                border-radius: 0vw;
+            }
+            #tw {
+                position: absolute;
+                height: 3vw;
+                width: 3vw;
+                left: 88vw;
+                top: 40px;
+                border-radius: 0vw;
+            }
+            #local {
+                position: absolute;
+                height: 3vw;
+                width: 3vw;
+                left: 91.5vw;
+                top: 40px;
+                border-radius: 0vw;
+            } 
+            
+            body{
+                background: url(/img/background.png);
+                background-size: cover;
+                
+            }
+    }
+

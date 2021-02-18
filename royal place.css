@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 35fr 4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+     "menu" 
+     "center"
+     "footer";
+     
+    
+}
+body{
+    background: url(/img/BACK2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.menu{ 
+    grid-area: menu;
+}
+li,.a{
+position: relative;
+left: 10vw;
+top: 1vw;
+font-family: "JejuGothic";
+font-weight: bold;
+font-size: 1.55vw;
+text-align: left;
+line-height: 2.6vw;
+text-decoration: none;
+list-style-type: none;
+color: #FFFFFF;
+display: inline-block;
+margin-right: 4vw;
+}
+.li, .aa{
+position: relative;
+left: 28vw;
+bottom: 1.9vw;
+font-family: "JejuGothic";
+font-weight: bold;
+font-size: 1.55vw;
+text-align: left;
+line-height: 2.6vw;
+text-decoration: none;
+color: #FFFFFF;
+display: inline-block;
+margin-right: 4vw;
+}
+#img{
+    position: relative;
+    bottom: 5vw;
+    left: 40vw;
+    width: 11.71vw;
+    height: 7.81vw;
+}
+pre{
+    position: absolute;
+    top: 7vw;
+    left: 43vw; 
+    font-size: 1.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    font-family: "JejuGothic";
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.center{
+    grid-area: center;
+
+}
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    left: 200px;
+    top: 100px;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    color: #e7e7e7;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+#slogan{
+    position: absolute;
+    top:  28vw;
+    left: 15vw;
+    font-family:"JhengHei";
+font-style: normal;
+font-weight:  22.6VW;
+font-size: 2.57vw;
+line-height:  3.43vw;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #e7e7e7;
+}
+#slogan-img{
+    position: absolute;
+    right: 0vw;
+    top: 3vw;
+    width: 110vw ;
+    height: 57vw;
+    animation:shakeX;
+    animation-duration:3s;
+
+}
+.foter{
+grid-area: footer;
+
+}
+.find{
+position: absolute;
+width: 78px;
+height: 19px;
+left: 16vw;
+top: 60vw;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.nm{
+position: absolute;
+left: 16vw;
+top: 62.5vw;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #FFFFFF;
+}
+.adress{
+position: absolute;
+left: 16vw;
+top: 64vw;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+color: #FFFFFF;
+}
+#logoo{
+position: absolute;
+top: 60vw;
+}
+#logos{
+    position: absolute;
+top: 64.5vw;
+left: 1vw;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 0.86vw;
+line-height: 1.02vw;
+color: #FFFFFF;
+
+}
+#cnt{
+    position: absolute;
+    top: 62vw;
+    left: 32vw;
+    font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size:  1.17vw;
+line-height: 1.02vw;
+color: #FFFFFF;
+}
+#insta{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    left: 65vw;
+    top: 61vw;
+    border-radius: 0vw;
+    
+}
+#fb
+{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    left: 73vw;
+    top: 61vw;
+    border-radius: 0vw;
+    
+}
+#tw
+{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    left: 81vw;
+    top: 61vw;
+    border-radius: 0vw;
+    
+}
+#local
+{
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    left: 89vw;
+    top: 61vw;
+    border-radius: 0vw;
+    
+}
+
+@media screen and (max-width:800px){
+
+
+#footer {
+    position: absolute;
+    width: 483px;
+    height: 74px;
+    top: 105vw;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.73);
+}
+.find {
+    position: absolute;
+    left: 16vw;
+    top: 2vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+.nm {
+    position: absolute;
+    left: 16vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.adress {
+    position: absolute;
+    left: 16vw;
+    top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+#logoo {
+    position: absolute;
+    top: 1vw;
+}
+#logos {
+    position: absolute;
+    left: 3vw;
+    top: 65px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+#cnt {
+    position: absolute;
+    left: 34vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.77vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+#insta {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 80vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#fb {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 84vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#tw {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 88vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#local {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 91.5vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+.menu{ 
+    grid-area: menu;
+}
+li,.a{
+    position: relative;
+    left: 5vw;
+    top: 1.5vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 2.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    .li, .aa{
+    position: relative;
+    left: 30vw;
+    bottom: 1.9vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 2.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    #img{
+        position: relative;
+        bottom: 6.5vw;
+        left: 37vw;
+        width: 15vw;
+        height: 12vw;
+    }
+    pre{
+        position: absolute;
+        top: 10.3vw;
+        left: 39.5vw; 
+        font-size: 2.3vw;
+        text-align: left;
+        line-height: 2.6vw;
+        font-family: "JejuGothic";
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+    .ml6 {
+        position: relative;
+        font-weight: 900;
+        font-size: 2.3em;
+      }
+      
+      .ml6 .text-wrapper {
+        position: relative;
+        left: 80px;
+        top: 100px;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+        color: #e7e7e7;
+      }
+      
+      .ml6 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
+      #slogan{
+        position: absolute;
+        top:  51.5vw;
+        left: 15vw;
+        font-family:"JhengHei";
+    font-style: normal;
+    font-weight:  22.6VW;
+    font-size: 3.57vw;
+    line-height:  3.43vw;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #e7e7e7;
+    }
+    #slogan-img{
+        position: absolute;
+        right: 0vw;
+        top: 0vw;
+        width: 150vw ;
+        height: 107vw;
+    }
+}

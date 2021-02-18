@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="royal place.css">
+    <link rel="shortcut icon" href="/img/pngegg 3.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Royal place</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">  </script>
+
+
+</head>
+
+<body>
+
+    <div class="home">
+        <div class="menu">
+
+            <ul class="nav-items">
+                <li>
+                    <a class="a" href="royal place.html">Home</a>
+                </li>
+
+                <li>
+                    <a class="a" href="food.html">Food</a>
+                </li>
+              </ul>
+
+                <ul class="nav-items">
+                    <li class="li">
+                        <a class="aa" href="Contact as.html">Contact As</a>
+                    </li>
+                    <li class="li">
+                        <a class="aa" href="About as.html">About As</a>
+                    </li>
+                </ul> 
+               <a href="royal place.html"><img id="img"  src="/img/logoà.png"></a> 
+                <pre>Royal Place</pre>               
+        </div>
+
+
+
+        <div class="center">
+            <h1 class="ml6">
+                <span class="text-wrapper">
+                  <span class="letters">Royal place</span>
+                </span>
+              </h1>
+              
+              
+  
+            </script>
+            <P id="slogan">We speak the good food language</P>
+            <img id="slogan-img" src="/img/logo.png" >
+
+        </div>
+
+        
+
+        <div id="footer">      
+            <a href="royal place.html"><img id="logoo" src="/img/logofooter.png"></a>
+            <p id="logos"> Royal place</p>
+            <p class="find">Find As:</p>
+            <p class="nm">+212 5 34 35 87 09</p>
+            <a href="https://www.google.com/maps/place/168+Blvd.+Mohamed+VI,+Tanger+90000/@35.7778859,-5.7982892,17z/data=!3m1!4b1!4m5!3m4!1s0xd0c7f5f0619e46d:0x2dcd607d34825156!8m2!3d35.7778859!4d-5.7961005"> <p class="adress">168 Blvd. Mohamed VI, Tanger 90000</p> </a>
+            <p id="cnt">|Royel Place © 2021. All right reserved. | Aymane and Achraf.|</p>
+            <a href="nstagram.com/stories/highlights/18071478865032421/?hl=fr" src="/img/instagram.png"></a>"> <img id="insta" src="/img/instagram.png"> </a>
+            <a href="https://www.facebook.com/profile.php?id=100007425827872"><img id="fb" src="/img/facebook.png"></a>
+            <a href="https://t.me/aymane01N"><img id="tw" src="/img/twitter.png"></a>
+            <a href="https://www.google.com/maps/place/168+Blvd.+Mohamed+VI,+Tanger+90000/@35.7778859,-5.7982892,17z/data=!3m1!4b1!4m5!3m4!1s0xd0c7f5f0619e46d:0x2dcd607d34825156!8m2!3d35.7778859!4d-5.7961005"><img id="local" src="/img/local.png"></a>
+        
+    </div>
+
+
+
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        
+    <script>
+        var textWrapper = document.querySelector('.ml6 .letters');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+            
+            anime.timeline({loop: true})
+              .add({
+                targets: '.ml6 .letter',
+                translateY: ["1.1em", 0],
+                translateZ: 0,
+                duration: 750,
+                delay: (el, i) => 50 * i
+              }).add({
+                targets: '.ml6',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+              });</script>
+
+</body>
+
+</html>

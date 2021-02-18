@@ -1,0 +1,589 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "navi navi navi navi navi "
+    "navi navi navi navi navi "
+    "menu menu menu client client "
+    " con1 con1 con2 con3 con4"
+    "foter foter foter foter foter"
+    ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/img/backgroundabout.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height: 70vw;
+
+
+}
+#navigator{
+
+    height: 100px;
+    grid-area: navi;
+}
+li,.a{
+        position: relative;
+        left: 10vw;
+        top: 1vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 1.55vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        list-style-type: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+        .li, .aa{
+        position: relative;
+        left: 28vw;
+        bottom: 1.9vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 1.55vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+        #img{
+            position: relative;
+            bottom: 5vw;
+            left: 42.5vw;
+            width: 8vw;
+            height: 5vw;
+        }
+        pre{
+            position: absolute;
+            top: 5vw;
+            left: 44.3vw; 
+            font-size: 1vw;
+            text-align: left;
+            line-height: 2.6vw;
+            font-family: "JejuGothic";
+            color: rgb(255, 255, 255);
+            opacity: 0.8;
+        }
+        #h1{
+            position:absolute;
+            bottom: 350px;
+            left: 250px;
+          font-family:"roboto" ; 
+          font-style: normal;
+          font-weight: 29VW; 
+          font-size: 3.25vw;
+          line-height: 7.34vw;
+          color: #e6e6e6;
+          
+      }
+      #slogan{
+          position: absolute;
+          bottom: 320px;
+          left: 250px;
+          font-family:"JhengHei";
+      font-style: normal;
+      font-weight:  2VW;
+      font-size: 2vw;
+      line-height:  3vw;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      color: #e6e6e6;
+      }
+#menu{
+      grid-area: menu;}
+      #serveur{
+          position: absolute;
+          top: 305px;
+          left: 60px;
+          z-index: 1;
+      }
+#client{
+
+    grid-area: client;
+    border-radius: 14px;
+    background: #BD916C;
+    opacity: 0.8;
+    position: relative;
+    right: 100px;
+    top: 210px; 
+    width: 541px;
+    height: 250px;
+    z-index: 1;
+}
+#about{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    color: ghostwhite;
+    font-family: "JejuGothic";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+}
+#test{
+    position: relative;
+    top: 100px;
+    color: ghostwhite;
+    left: 36px;
+    
+font-family:"JejuGothic";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+
+}
+#prepa{
+    position: relative;
+    top: 70px;
+    color: ghostwhite;
+    left: 36px;
+    
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+
+}
+
+#con1{
+       grid-area: con1;
+       position: relative;
+       top: 220px;
+       
+   
+
+}
+#con2{
+      grid-area: con2;
+      position: relative;
+      top: 220px;
+}
+#con3{
+     grid-area: con3;
+     position: relative;
+      top:220px;
+}
+#con4{
+      grid-area: con4;
+      position: relative;
+      top: 220px;
+}
+
+#foter{
+        grid-area: footer;
+        
+            position: absolute;
+            width: 1263px;
+            height: 74px;
+            left: 0px;
+            top: 826px;
+            background: rgba(0, 0, 0, 0.73);
+        
+        }
+        .find {
+            position: absolute;
+            width: 78px;
+            height: 19px;
+            left: 16vw;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+        
+        .nm {
+            position: absolute;
+            left: 16vw;
+            top: 30px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #FFFFFF;
+        }
+        
+        .adress {
+            position: absolute;
+            left: 16vw;
+            top: 50px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;
+            color: #FFFFFF;
+        }
+        
+        #logoo {
+            position: absolute;
+        }
+        
+        #logos {
+            position: absolute;
+            left: 1vw;
+            top: 55px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 0.86vw;
+            line-height: 1.02vw;
+            color: #FFFFFF;
+        }
+        
+        #cnt {
+            position: absolute;
+            left: 37vw;
+            top: 30px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.17vw;
+            line-height: 1.02vw;
+            color: #FFFFFF;
+        }
+        
+        #insta {
+            position: absolute;
+            height: 3vw;
+            width: 3vw;
+            left: 82vw;
+            top: 20px;
+            border-radius: 0vw;
+        }
+        
+        #fb {
+            position: absolute;
+            height: 3vw;
+            width: 3vw;
+            left: 87vw;
+            top: 20px;
+            border-radius: 0vw;
+        }
+        
+        #tw {
+            position: absolute;
+            height: 3vw;
+            width: 3vw;
+            left: 91vw;
+            top: 20px;
+            border-radius: 0vw;
+        }
+        
+        #local {
+            position: absolute;
+            height: 3vw;
+            width: 3vw;
+            left: 95vw;
+            top: 20px;
+            border-radius: 0vw;
+        }
+@media only screen and (max-width:500px){
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "navi navi"
+    "lwest lwest"
+    "menu menu"
+    "client client"
+    "con1 con1"
+    "con2 con2"
+    "con3 con3"
+    "con4 con4"
+    "foter foter"
+
+    ;
+    }
+    body{
+        background: url(/img/backgroundabout.png);
+
+        background-size: cover;
+        background-position:center ;
+        height: 150vh;
+    
+    
+    }
+    #navigator{
+
+
+        grid-area: navi;
+    }
+    li,.a{
+        position: relative;
+        left: 10vw;
+        top: 1vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 2vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        list-style-type: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+        .li, .aa{
+        position: relative;
+        left: 33vw;
+        bottom: 5.9vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 2vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+            #img{
+                position: relative;
+                bottom: 17vw;
+                left: 42.5vw;
+                width: 12vw;
+                height: 8vw;
+            }
+            pre{
+                position: absolute;
+                top: 7vw;
+                left: 44.3vw; 
+                font-size: 2vw;
+                text-align: left;
+                line-height: 2.6vw;
+                font-family: "JejuGothic";
+                color: rgb(255, 255, 255);
+                opacity: 0.8;
+            }
+    #h1{
+        position:absolute;
+        bottom: 450px;
+        left: 100px;
+      font-family:"roboto" ; 
+      font-style: normal;
+      font-weight: 29VW; 
+      font-size: 5.25vw;
+      line-height: 7.34vw;
+      color: #e6e6e6;
+      
+  }
+  #slogan{
+      position: absolute;
+      bottom: 420px;
+      left: 100px;
+      font-family:"JhengHei";
+  font-style: normal;
+  font-weight:  2VW;
+  font-size: 3vw;
+  line-height:  3vw;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #e6e6e6;
+  }
+#menu{
+  grid-area: menu;}
+  #serveur{
+      position: absolute;
+      top: 205px;
+      left: 60px;
+      width: 401px;
+      height: 150px;
+      z-index: 1;
+  }
+#client{
+
+grid-area: client;
+border-radius: 14px;
+background: #BD916C;
+opacity: 0.8;
+position: relative;
+left: 50px;
+top: 280px; 
+width: 401px;
+height: 150px;
+z-index: 1;
+}
+#about{
+position: absolute;
+left: 150px;
+top: 20px;
+color: ghostwhite;
+font-family: "JejuGothic";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+}
+#test{
+    position: relative;
+    top: 80px;
+    color: ghostwhite;
+    left: 36px;
+    
+font-family:"JejuGothic";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+
+}
+#prepa{
+    position: relative;
+    top: 70px;
+    color: ghostwhite;
+    left: 36px;
+    
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+#con1{
+    grid-area: con1;
+    position: relative;
+    top: 320px;
+    left: 50px;
+    
+
+
+}
+#con2{
+   grid-area: con2;
+   position: relative;
+   top: -70px;
+   left:285px;
+}
+#con3{
+  grid-area: con3;
+  position: relative;
+   top:-80px;
+   left: 300px;
+}
+#con4{
+   grid-area: con4;
+   position: relative;
+   top: -70px;
+   left: 150px;
+}
+#foter {
+    position: relative;
+    width: 496px;
+    height: 74px;
+    top: 6vw;
+    left: -10px;
+    background: rgba(0, 0, 0, 0.73);
+}
+.find {
+    position: absolute;
+    left: 16vw;
+    top: 2vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+.nm {
+    position: absolute;
+    left: 16vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.adress {
+    position: absolute;
+    left: 16vw;
+    top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+#logoo {
+    position: absolute;
+    top: 1vw;
+}
+#logos {
+    position: absolute;
+    left: 3vw;
+    top: 65px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+#cnt {
+    position: absolute;
+    left: 34vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.77vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+#insta {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 80vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#fb {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 84vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#tw {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 88vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+#local {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 91.5vw;
+    top: 40px;
+    border-radius: 0vw;
+}
+}

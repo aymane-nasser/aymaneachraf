@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/backgroundcontact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li,.a{
+    position: relative;
+    left: 10vw;
+    top: 1vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    .li, .aa{
+    position: relative;
+    left: 28vw;
+    bottom: 1.9vw;
+    font-family: "JejuGothic";
+    font-weight: bold;
+    font-size: 1.55vw;
+    text-align: left;
+    line-height: 2.6vw;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4vw;
+    }
+    #img{
+        position: relative;
+        bottom: 5vw;
+        left: 42.5vw;
+        width: 8vw;
+        height: 5vw;
+    }
+    pre{
+        position: absolute;
+        top: 5vw;
+        left: 44.3vw; 
+        font-size: 1vw;
+        text-align: left;
+        line-height: 2.6vw;
+        font-family: "JejuGothic";
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+
+form {
+    position: absolute;
+    left: 150px;
+    top: 260px;
+    border: 2px solid black;
+    border-radius: 32px;
+    width: 1000px;
+    height: 500px;
+    background: url(/img/pexels-august-de-richelieu-4262174\ 1.png);
+    background-size: cover;
+}
+
+#titel {
+    position: absolute;
+    left: 320px;
+    padding: 20px;
+    width: 282px;
+    height: 62px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 62px;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+#pre {
+    position: absolute;
+    left: 26px;
+    color: rgba(255, 255, 255, 0.86);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 50PX;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+input {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: rgba(237, 237, 237, 0.69);
+    outline: none;
+}
+
+.fristname {
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+
+.lastname {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+
+.checkin {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+
+.person {
+    position: absolute;
+    top: 250px;
+    left: 555px;
+}
+
+.phone {
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+
+.table {
+    position: absolute;
+    top: 350px;
+    left: 555px;
+}
+
+button {
+    position: absolute;
+    top: 430px;
+    left: 380px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    background: rgba(0, 0, 0, 0.73);
+}
+
+button:hover {
+    color: #000000;
+    background: rgb(255, 230, 9);
+    transition-delay: 0.2s;
+}
+
+#footer {
+    position: relative;
+    width: 1263px;
+    height: 74px;
+    left: 0px;
+    top: 826px;
+    background: rgba(0, 0, 0, 0.73);
+}
+
+.find {
+    position: absolute;
+    width: 78px;
+    height: 19px;
+    left: 16vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nm {
+    position: absolute;
+    left: 16vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.adress {
+    position: absolute;
+    left: 16vw;
+    top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+#logoo {
+    position: absolute;
+}
+
+#logos {
+    position: absolute;
+    left: 1vw;
+    top: 55px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.86vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+
+#cnt {
+    position: absolute;
+    left: 37vw;
+    top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.17vw;
+    line-height: 1.02vw;
+    color: #FFFFFF;
+}
+
+#insta {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 82vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+#fb {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 87vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+#tw {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 91vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+#local {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    left: 95vw;
+    top: 20px;
+    border-radius: 0vw;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(/img/backgroundcontact.png);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+    }
+    li,.a{
+        position: relative;
+        left: 5vw;
+        top: 1.5vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 2.55vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        list-style-type: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+        .li, .aa{
+        position: relative;
+        left: 30vw;
+        bottom: 1.9vw;
+        font-family: "JejuGothic";
+        font-weight: bold;
+        font-size: 2.55vw;
+        text-align: left;
+        line-height: 2.6vw;
+        text-decoration: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: 4vw;
+        }
+        #img{
+            position: relative;
+            bottom: 6.5vw;
+            left: 37vw;
+            width: 15vw;
+            height: 12vw;
+        }
+        pre{
+            position: absolute;
+            top: 10.3vw;
+            left: 39.5vw; 
+            font-size: 2.3vw;
+            text-align: left;
+            line-height: 2.6vw;
+            font-family: "JejuGothic";
+            color: rgb(255, 255, 255);
+            opacity: 0.8;
+        }
+    form {
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        border: 2px solid black;
+        border-radius: 32px;
+        width: 400px;
+        height: 250px;
+        background: url(/img/pexels-august-de-richelieu-4262174\ 1.png);
+        background-size: cover;
+    }
+    #titel {
+        position: absolute;
+        left: 120px;
+        padding: 20px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 50;
+        font-size: 23px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.86);
+    }
+    #logore {
+        position: absolute;
+        left: 20px;
+        width: 55px;
+        height: 50px;
+    }
+    #pre {
+        position: absolute;
+        left: 26px;
+        top: 50px;
+        color: rgba(255, 255, 255, 0.86);
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 10PX;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    input {
+        padding: 5px;
+        width: 150px;
+        border: 1px solid black;
+        border-radius: 30px;
+        background: rgba(237, 237, 237, 0.69);
+        outline: none;
+    }
+    .fristname {
+        position: absolute;
+        top: 80px;
+        left: 210px;
+    }
+    .lastname {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+    .checkin {
+        position: absolute;
+        top: 120px;
+        left: 20px;
+    }
+    .person {
+        position: absolute;
+        top: 120px;
+        left: 210px;
+    }
+    .phone {
+        position: absolute;
+        top: 160px;
+        left: 20px;
+    }
+    .table {
+        position: absolute;
+        top: 160px;
+        left: 210px;
+    }
+    button {
+        position: absolute;
+        top: 210px;
+        left: 96px;
+        width: 180px;
+        height: 30px;
+        border-radius: 10px;
+        display: inline-block;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+        overflow: hidden;
+        transition: 0.2s;
+        background: rgba(0, 0, 0, 0.73);
+    }
+    button:hover {
+        color: #000000;
+        background: rgb(255, 230, 9);
+        transition-delay: 0.2s;
+    }
+    #footer {
+        position: relative;
+        width: 483px;
+        height: 74px;
+        left: 0px;
+        top: 456px;
+        background: rgba(0, 0, 0, 0.73);
+    }
+    .find {
+        position: absolute;
+        left: 16vw;
+        top: 2vw;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        color: #FFFFFF;
+    }
+    .nm {
+        position: absolute;
+        left: 16vw;
+        top: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+    .adress {
+        position: absolute;
+        left: 16vw;
+        top: 50px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+        color: #FFFFFF;
+    }
+    #logoo {
+        position: absolute;
+    }
+    #logos {
+        position: absolute;
+        left: 3vw;
+        top: 55px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1.02vw;
+        color: #FFFFFF;
+    }
+    #cnt {
+        position: absolute;
+        left: 34vw;
+        top: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.77vw;
+        line-height: 1.02vw;
+        color: #FFFFFF;
+    }
+    #insta {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 80vw;
+        top: 40px;
+        border-radius: 0vw;
+    }
+    #fb {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 84vw;
+        top: 40px;
+        border-radius: 0vw;
+    }
+    #tw {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 88vw;
+        top: 40px;
+        border-radius: 0vw;
+    }
+    #local {
+        position: absolute;
+        height: 3vw;
+        width: 3vw;
+        left: 91.5vw;
+        top: 40px;
+        border-radius: 0vw;
+    }
+}
