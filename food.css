@@ -192,14 +192,15 @@ grid-area: ph8;
     grid-area: footer;
     background: black;
     opacity: 0.7;
+    height: 80px;
     position: relative;
-    top: 480px;
+    top: 530px;
 
 
 }
 .find{
     position: absolute;
-    top: 2vw;
+    top: 1vw;
     left: 16vw;
     font-family: "Roboto";
     font-style: normal;
@@ -210,7 +211,7 @@ grid-area: ph8;
     }
     .nm{
     position: absolute;
-    top: 4vw;
+    top: 3vw;
     left: 16vw;
     font-family: "Roboto";
     font-style: normal;
@@ -221,7 +222,7 @@ grid-area: ph8;
     }
     .adress{
     position: absolute;
-    top: 5.7vw;
+    top: 4.7vw;
     left: 16vw;
     font-family: "Roboto";
     font-style: normal;
@@ -230,68 +231,72 @@ grid-area: ph8;
     line-height: 13px;
     color: #FFFFFF;
     }
-    #logoo{
-    position: absolute;
-    top: 2vw;
-
-    }
-    #logos{
+    #logoo {
         position: absolute;
-        left: 1.5vw;
-        top: 6VW;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.86vw;
-    line-height: 1.02vw;
-    color: #FFFFFF;
+        width: 5.5vw;
+        height: 5vw;
+        left: 1vw;
+        top: 1vw;
+    }
     
-    }
-    #cnt{
+    #logos {
         position: absolute;
-        top: 4vw;
-        left: 32vw;
+        left: 1.7vw;
+        top: 68px;
         font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size:  1.17vw;
-    line-height: 1.02vw;
-    color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        line-height: 1.02vw;
+        color: #FFFFFF;
     }
-    #insta{
+    
+    #cnt {
         position: absolute;
-        height: 3vw;
-        width: 3vw;
-        left: 65vw;
-        top: 3vw;
-        
+        left: 37vw;
+        top: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.17vw;
+        line-height: 1.02vw;
+        color: #FFFFFF;
     }
-    #fb
-    {
+    
+    #insta {
         position: absolute;
-        height: 3vw;
-        width: 3vw;
-        left: 73vw;
-        top: 3vw;
-        
+        height: 2vw;
+        width: 2vw;
+        left: 82vw;
+        top: 30px;
+        border-radius: 0vw;
     }
-    #tw
-    {
+    
+    #fb {
         position: absolute;
-        height: 3vw;
-        width: 3vw;
-        left: 81vw;
-        top: 3vw;
-        
+        height: 2vw;
+        width: 2vw;
+        left: 87vw;
+        top: 30px;
+        border-radius: 0vw;
     }
-    #local
-    {
+    
+    #tw {
         position: absolute;
-        height: 3vw;
-        width: 3vw;
-        left: 89vw;
-        top: 3vw;
-        
+        height: 2vw;
+        width: 2vw;
+        left: 91vw;
+        top: 30px;
+        border-radius: 0vw;
+    }
+    
+    #local {
+        position: absolute;
+        height: 2vw;
+        width: 2vw;
+        left: 95vw;
+        top: 30px;
+        border-radius: 0vw;
     }
 
     @media screen and (max-width:800px){

@@ -235,16 +235,20 @@ line-height: 26px;
         
         #logoo {
             position: absolute;
+            width: 5.5vw;
+            height: 5vw;
+            left: 1vw;
+            top: 1vw;
         }
         
         #logos {
             position: absolute;
-            left: 1vw;
-            top: 55px;
+            left: 1.7vw;
+            top: 68px;
             font-family: "Roboto";
             font-style: normal;
             font-weight: normal;
-            font-size: 0.86vw;
+            font-size: 0.8vw;
             line-height: 1.02vw;
             color: #FFFFFF;
         }
@@ -263,37 +267,37 @@ line-height: 26px;
         
         #insta {
             position: absolute;
-            height: 3vw;
-            width: 3vw;
+            height: 2vw;
+            width: 2vw;
             left: 82vw;
-            top: 20px;
+            top: 30px;
             border-radius: 0vw;
         }
         
         #fb {
             position: absolute;
-            height: 3vw;
-            width: 3vw;
+            height: 2vw;
+            width: 2vw;
             left: 87vw;
-            top: 20px;
+            top: 30px;
             border-radius: 0vw;
         }
         
         #tw {
             position: absolute;
-            height: 3vw;
-            width: 3vw;
+            height: 2vw;
+            width: 2vw;
             left: 91vw;
-            top: 20px;
+            top: 30px;
             border-radius: 0vw;
         }
         
         #local {
             position: absolute;
-            height: 3vw;
-            width: 3vw;
+            height: 2vw;
+            width: 2vw;
             left: 95vw;
-            top: 20px;
+            top: 30px;
             border-radius: 0vw;
         }
 @media only screen and (max-width:500px){

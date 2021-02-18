@@ -59,15 +59,15 @@ margin-right: 4vw;
 #img{
     position: relative;
     bottom: 5vw;
-    left: 40vw;
-    width: 11.71vw;
-    height: 7.81vw;
+    left: 42vw;
+    width: 8vw;
+    height: 6vw;
 }
 pre{
     position: absolute;
-    top: 7vw;
+    top: 5vw;
     left: 43vw; 
-    font-size: 1.55vw;
+    font-size: 1.4vw;
     text-align: left;
     line-height: 2.6vw;
     font-family: "JejuGothic";
@@ -176,16 +176,19 @@ grid-area: footer;
 
 #logoo {
     position: absolute;
+    width: 5.5vw;
+    height: 5vw;
+    left: 1vw;
 }
 
 #logos {
     position: absolute;
-    left: 1vw;
-    top: 55px;
+    left: 1.7vw;
+    top: 58px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
-    font-size: 0.86vw;
+    font-size: 0.8vw;
     line-height: 1.02vw;
     color: #FFFFFF;
 }
@@ -204,8 +207,8 @@ grid-area: footer;
 
 #insta {
     position: absolute;
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
     left: 82vw;
     top: 20px;
     border-radius: 0vw;
@@ -213,8 +216,8 @@ grid-area: footer;
 
 #fb {
     position: absolute;
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
     left: 87vw;
     top: 20px;
     border-radius: 0vw;
@@ -222,8 +225,8 @@ grid-area: footer;
 
 #tw {
     position: absolute;
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
     left: 91vw;
     top: 20px;
     border-radius: 0vw;
@@ -231,8 +234,8 @@ grid-area: footer;
 
 #local {
     position: absolute;
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
     left: 95vw;
     top: 20px;
     border-radius: 0vw;
