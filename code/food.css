@@ -83,6 +83,8 @@ grid-area: ph1;
     transition: 0.3s ease-in-out;     
     background: rgb(219, 219, 219);
     border-radius: 30px;
+    animation: bounceInRight;
+    animation-duration: 3s;
 }
 .cards:hover{
     height: 31vw;
@@ -142,6 +144,8 @@ grid-area: ph5;
     transition: 0.3s ease-in-out;     
     background: rgb(219, 219, 219);
     border-radius: 30px;
+    animation: bounceInLeft;
+    animation-duration: 3s;
 }
 .cardss:hover{
     height: 31vw;
